@@ -67,6 +67,8 @@ public class StudentController {
 	//http://localhost:9988/student/sai
 	@PostMapping("/sai")
 	Student createStudent(@RequestBody Student s) {
+//		System.err.println("entered controller");
+//		System.out.println(s.getSid());
 		return studentService.createStudent(s);
 	}
 }

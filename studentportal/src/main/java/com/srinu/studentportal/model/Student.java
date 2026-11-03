@@ -7,7 +7,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
 
-@Entity // it is an entity which is going to create a table in your DB
+@Entity 
+// it is an entity which is going to create a table in your DB
 @Table(name = "student73")
 @Data
 public class Student {
